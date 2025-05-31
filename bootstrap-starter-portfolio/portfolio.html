@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Styles -->
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Gravitas One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Portfolio | milim 2022 Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/iconlogo.png">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/custom-styles.css">
+
+  </head>
+
+  <body>
+    <!-- Transparent navbar starts -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top px-5">
+      <div class="container" style="max-width: 100%;">
+        <a class="navbar-brand mt-sm-3 logo_mobile font-weight-bold text-light" href="index.html"><img src="img/logo4.png" alt="milim logo" class="img-fluid"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-lg font-weight-bold" href="#connect">
+                  <span class="btn_inner">Contact</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="scrolling-container">
+        <div class='scrolling-text'>
+          <h1 class="scrolling-text-content">Portfolio&nbsp;<i class="bi bi-asterisk"></i>&nbsp;Portfolio&nbsp;<i class="bi bi-asterisk"></i>&nbsp;</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- Gallery of works-->
+    <article>
+      <!-- Filter Control buttons -->
+      <div id="filterContainer">
+        <button class="btn active" onclick="filterSelection('all')">Show all</button>
+        <button class="btn" onclick="filterSelection('poster')">Posters</button>
+        <button class="btn" onclick="filterSelection('app')">Mobile Design</button>
+        <button class="btn" onclick="filterSelection('sketch')">Sketches</button>
+        <button class="btn" onclick="filterSelection('render')">3D Renders</button>
+      </div>
+
+      <!-- 15 images in spotlight -->
+      <div id="gallery" class="spotlight-group">
+        <a class="spotlight" href="img/Dwg1.jpg" data-description="A product concept with circular economy in mind, utilising multiple waste products to create a modern workstation for two. Taking advantage of the durability and strength of rotomoulded slimline tanks, the workstation houses several used furniture components and appliances to ensure a long lifetime of use.">
+        <img src="img/Dwg1.jpg" alt="Slimline Workstation Poster1" class="filterDiv poster"></a>
+
+        <a class="spotlight" href="img/Dwg2.jpg" data-description="The materials and manufacturing processes planned for the Slimline Workstation concept.">
+        <img src="img/Dwg2.jpg" alt="Slimline Workstation Poster2" class="filterDiv poster"></a>
+
+        <a class="spotlight" href="img/Dwg3.jpg" data-description="Features of the Slimline Workstation concept that encourages a long lifetime of use.">
+        <img src="img/Dwg3.jpg" alt="Slimline Workstation Poster3" class="filterDiv poster"></a>
+
+        <a class="spotlight" href="img/Skc1.jpg" data-description="Annotated sketch of a proposal for a kitchen in a space habitat. Who's hungry for a buffet?">
+        <img src="img/Skc1.jpg" alt="Sketch of a space kitchen" class="filterDiv sketch"></a>
+
+        <a class="spotlight" href="img/Rnd1.jpg" data-description="A Solidworks render of a space kitchen. Nick &quot;Buffet Station&quot;.">
+        <img src="img/Rnd1.jpg" alt="Render of a space kitchen" class="filterDiv render"></a>
+
+        <a class="spotlight" href="img/Dwg4jpg" data-description="Accessible shower chair concept for those who seek comfort and modernity. DFA, DFD and sustainable considerations.">
+        <img src="img/Dwg4.jpg" alt="Lotus Shower Chair Sustainabilty Poster" class="filterDiv poster"></a>
+
+        <a class="spotlight" href="img/Skc4.jpg" data-description="Ortho sketch for concept shower chair. Name: Lotus">
+        <img src="img/Skc4.jpg" alt="Ortho sketch - shower chair concept2" class="filterDiv sketch"></a>
+
+        <a class="spotlight" href="img/Dwg5.jpg" data-description="Accessible shower chair concept for those who seek comfort and modernity.">
+        <img src="img/Dwg5.jpg" alt="Lotus Shower Chair Concept Poster" class="filterDiv poster"></a>
+
+        <a class="spotlight" href="img/Skc2.jpg" data-description="Ortho sketch for concept shower chair. Name: Mint">
+        <img src="img/Skc2.jpg" alt="Ortho sketch - shower chair concept1" class="filterDiv sketch"></a>
+
+        <a class="spotlight" href="img/Rnd2.jpg" data-description="Minimalist and modular desk for small spaces. Rendered in Solidworks">
+        <img src="img/Rnd2.jpg" alt="Mon Combi Desk Render" class="filterDiv render"></a>
+
+        <a class="spotlight" href="img/Skc3.jpg" data-description="Ortho sketch for concept shower chair. Name: Lily">
+        <img src="img/Skc3.jpg" alt="Ortho sketch - shower chair concept1" class="filterDiv sketch"></a>
+
+        <a class="spotlight" href="img/Dwg6.jpg" data-description="Product concept poster for a minimalist and modular desk.">
+        <img src="img/Dwg6.jpg" alt="Mon Combi Desk Poster" class="filterDiv poster"></a>
+
+        <a class="spotlight" href="img/App1.png" data-description="Digitalised map designed for accessibility. Focus on providing real-time info on hazards.">
+        <img src="img/App1.png" alt="University DigiMap Screen1" class="filterDiv app"></a>
+
+        <a class="spotlight" href="img/App2.png" data-description="Digitalised map designed for accessibility. Allows users to rate routes and report hazards.">
+        <img src="img/App2.png" alt="University DigiMap Screen2" class="filterDiv app"></a>
+
+        <a class="spotlight" href="img/App3.png" data-description="2D dressing room that aims to enhance shopper experiences.">
+        <img src="img/App3.png" alt="Fitting Room App Scenarios" class="filterDiv app"></a>
+
+      </div>
+    </article>
+
+    <footer class="text-center" id="connect">
+      <!-- Go to top button -->
+      <button class="btn btn-success p-lg-3 text-center" onclick="topFunction()" id="myBtn" title="A s c e n d"><i class="bi bi-stars pe-2"></i></button>
+
+        <h2 class="socials-head">Let's connect</h2>
+          <div class="socials-container">
+            <div class="socials-item">
+              <a href="doc/resume.pdf" target="_blank" title="Resume"><i class="bi bi-file-earmark-pdf-fill"></i>Resume</a>
+            </div>
+            <div class="socials-item">
+              <a href="mailto:sherlitan@gmail.com" target="_blank" title="Email"><i class="bi bi-envelope"></i>Email</a>
+            </div>
+            <div class="socials-item">
+              <a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i>Linkedin</a>
+            </div>
+            <div class="socials-item">
+              <a href="https://www.behance.net/stormii_12/projects" target="_blank" title="Behance"><i class="bi bi-behance"></i>Behance</a>
+            </div>
+          </div>
+    </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Go to top JS -->
+  <script src="js/go_to_top.js"></script>
+
+  <!-- Scrolling Container JS -->
+  <script src="js/side_scroll.js"></script>
+
+  <!-- Filter Images in Gallery JS -->
+  <script src="js/gallery_filter.js"></script>
+
+  <!-- Full-featured Image Viewer JS -->
+  <script src="js/spotlight.js"></script>
+
+  <!-- Bootstrap Full Screen Video JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <!-- Shrink navbar when scrolling JS -->
+  <script>
+    $(function() {
+        $(window).scroll(function() {
+            if ($(window).scrollTop() <= 200) {
+                $('.navbar').removeClass('scroll_navbar')
+              } else {
+                $('.navbar').addClass('scroll_navbar')
+              }
+        })
+    })
+  </script>
+
+</body>
+</html>

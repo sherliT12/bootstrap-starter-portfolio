@@ -12,6 +12,6 @@ My first portfolio, built with Bootstrap in 2022. Designed to be fully responsiv
         <li>Image filter by sections - adapted from <a href="https://www.w3schools.com/howto/howto_js_filter_elements.asp" target="_blank">w3schools How to - filter elements</a></li>
     </ul>
 
-All credits are also noted in the relevant CSS files.</p>
+All credits are also noted in the .css files.</p>
 
 

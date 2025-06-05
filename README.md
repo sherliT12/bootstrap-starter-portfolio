@@ -1,5 +1,5 @@
 # bootstrap-starter-portfolio
-My first portfolio, built with Bootstrap in 2022. Designed to be fully responsive with a clean, accessible layout.
+My first web portfolio, built with Bootstrap. Designed to be fully responsive with a clean, accessible layout. View <a href="https://sherlit12.github.io/bootstrap-starter-portfolio/" target="_blank">here</a>.
 
 <i>Please be aware that information and files in this site are outdated. For up-to-date portfolio and resume, visit <a href="https://www.sherlitan.com" target="_blank">www.sherlitan.com </a></i>
 

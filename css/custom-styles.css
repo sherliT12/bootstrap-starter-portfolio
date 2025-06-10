@@ -110,9 +110,13 @@ article {
     font-size: inherit !important;
   }
 
+  .nav-item {
+    margin-bottom: 0;
+  }
+
   .nav-link:hover {
     color: #c4313c !important;
-    border-left: 5px solid #c4313c;
+    /*-- border-left: 5px solid #c4313c; --*/
   }
 
   /* Navbar when shrunked */
